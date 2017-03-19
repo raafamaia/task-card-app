@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
+    moduleId: module.id.replace('/build', '/'),
     selector: 'my-app',
-    template: '<h1> Scaffold Project </h1>'
+    templateUrl: './app/app.component.html'
 })
 
 export class AppComponent { }
